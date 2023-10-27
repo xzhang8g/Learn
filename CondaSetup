@@ -1,8 +1,8 @@
 $python --version
-$conda create --name py35 python=3.7
-$conda activate py35
+$conda create --name py37 python=3.7
+$conda activate py37
 $conda deactivate
-$conda env remove --name py35
+$conda env remove --name py37
 $conda env list
 $conda --version
 $conda update conda
@@ -12,6 +12,7 @@ $conda list
 
 
 
-pip install numpy 
+conda activate py37
 Pip install torch
-pip install jupter 
+pip install jupyter 
+pip install numpy
